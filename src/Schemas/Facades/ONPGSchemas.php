@@ -1,15 +1,15 @@
 <?php
 
-namespace PGSchemas\Facades;
+namespace ONPGSchemas\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class PGSchema
  *
- * @package PGSchemas
+ * @package ONPGSchemas
  */
-class PGSchema extends Facade
+class ONPGSchemas extends Facade
 {
     /**
      * @return string

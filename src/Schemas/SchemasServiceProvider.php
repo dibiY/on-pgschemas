@@ -1,13 +1,13 @@
 <?php
 
-namespace PGSchemas;
+namespace ONPGSchemas;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class SchemasServiceProvider
  *
- * @package PGSchemas
+ * @package ONPGSchemas
  */
 class SchemasServiceProvider extends ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PGSchemas;
+namespace ONPGSchemas;
 
 use DB;
 use Artisan;
@@ -10,7 +10,7 @@ use Config;
 /**
  * Class Schemas
  *
- * @package PGSchemas
+ * @package ONPGSchemas
  */
 class Schemas
 {

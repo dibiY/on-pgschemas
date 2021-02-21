@@ -17,16 +17,16 @@
     },
     "autoload": {
         "psr-4": {
-            "PGSchemas\\": "src/"
+            "ONPGSchemas\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "PGSchemas\\SchemasServiceProvider"
+                "ONPGSchemas\\SchemasServiceProvider"
             ],
             "aliases": {
-                "PGSchema": "PGSchemas\\Facades\\PGSchema"
+                "PGSchema": "ONPGSchemas\\Facades\\ONPGSchemas"
             }
         }
     },
