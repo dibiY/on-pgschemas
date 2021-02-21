@@ -1,5 +1,5 @@
 {
-    "name": "dibi-y/on-pgschemas",
+    "name": "dibiy/onpgschemas",
     "description": "Laravel package for managing postgresql schemas",
     "keywords" : ["laravel", "postgres"],
     "license" : "MIT",
@@ -17,16 +17,16 @@
     },
     "autoload": {
         "psr-4": {
-            "ONPGSchemas\\": "src/"
+            "Dibiy\\Onpgschema\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ONPGSchemas\\SchemasServiceProvider"
+                "Dibiy\\Onpgschema\\Schemas\\SchemasServiceProvider"
             ],
             "aliases": {
-                "ONPGSchemas": "ONPGSchemas\\Facades\\ONPGSchemas"
+                "ONPGSchemas": "Dibiy\\Onpgschema\\Schemas\\Facades\\ONPGSchemas"
             }
         }
     },
