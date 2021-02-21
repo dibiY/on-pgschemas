@@ -8,7 +8,7 @@ applications.
 
 1. Use composer to add the package into your project
 using
-`composer require pgschemas:dev-master`
+`composer require dibi-y/on-pgschemas:dev-master`
 
 2. Add 'PGSchemas\SchemasServiceProvider' to your app.php file in the
 services providers section.
