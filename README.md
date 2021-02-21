@@ -10,9 +10,9 @@ applications.
 using
 `composer require dibi-y/on-pgschemas:dev-master`
 
-2. Add 'PGSchemas\SchemasServiceProvider' to your app.php file in the
+2. Add 'ONPGSchemas\SchemasServiceProvider' to your app.php file in the
 services providers section.
-3. Add 'PGSchema' => 'PGSchemas\Facades\PGSchema' into the aliases
+3. Add 'ONPGSchemas' => 'ONPGSchemas\Facades\ONPGSchemas' into the aliases
 section
 
 ## Usage
