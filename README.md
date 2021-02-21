@@ -48,7 +48,7 @@ Then you can migrate some schema using this path
 
 ## Multi-tenancy Example (SaaS)
 
-Checkout this repo https://bitbucket.org/YassineD/pgshemas
+Checkout this repo https://github.com/dibiY/on-pgschemas
 In the handlers folder you can find the code that contains calls to
 the package.
 
