@@ -26,7 +26,7 @@
                 "ONPGSchemas\\SchemasServiceProvider"
             ],
             "aliases": {
-                "PGSchema": "ONPGSchemas\\Facades\\ONPGSchemas"
+                "ONPGSchemas": "ONPGSchemas\\Facades\\ONPGSchemas"
             }
         }
     },
