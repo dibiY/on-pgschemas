@@ -1,5 +1,5 @@
 {
-    "name": "pgschemas",
+    "name": "on-pgschemas",
     "description": "Laravel package for managing postgresql schemas",
     "keywords" : ["laravel", "postgres"],
     "license" : "MIT",
