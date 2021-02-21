@@ -1,5 +1,5 @@
 {
-    "name": "on-pgschemas",
+    "name": "dibiY/on-pgschemas",
     "description": "Laravel package for managing postgresql schemas",
     "keywords" : ["laravel", "postgres"],
     "license" : "MIT",
