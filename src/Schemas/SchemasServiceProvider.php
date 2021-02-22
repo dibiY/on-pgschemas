@@ -1,6 +1,6 @@
 <?php
 
-namespace ONPGSchemas;
+namespace Onpgschemas;
 
 use Illuminate\Support\ServiceProvider;
 

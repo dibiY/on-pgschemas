@@ -8,11 +8,11 @@ applications.
 
 1. Use composer to add the package into your project
 using
-`composer require dibi-y/on-pgschemas:dev-master`
+`composer require dibiy/onpgschemas:dev-master`
 
-2. Add 'ONPGSchemas\SchemasServiceProvider' to your app.php file in the
+2. Add 'Onpgschemas\SchemasServiceProvider' to your app.php file in the
 services providers section.
-3. Add 'ONPGSchemas' => 'ONPGSchemas\Facades\ONPGSchemas' into the aliases
+3. Add 'Onpgschemas' => 'Onpgschemas\Facades\Onpgschemas' into the aliases
 section
 
 ## Usage
@@ -48,7 +48,7 @@ Then you can migrate some schema using this path
 
 ## Multi-tenancy Example (SaaS)
 
-Checkout this repo https://github.com/dibiY/on-pgschemas
+Checkout this repo https://github.com/dibiY/onpgschemas
 In the handlers folder you can find the code that contains calls to
 the package.
 

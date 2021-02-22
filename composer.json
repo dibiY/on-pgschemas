@@ -17,16 +17,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Dibiy\\Onpgschema\\": "src/"
+            "Onpgschemas\\": "src/Schemas"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Dibiy\\Onpgschema\\Schemas\\SchemasServiceProvider"
+                "Onpgschemas\\SchemasServiceProvider"
             ],
             "aliases": {
-                "ONPGSchemas": "Dibiy\\Onpgschema\\Schemas\\Facades\\ONPGSchemas"
+                "Onpgschemas": "Onpgschemas\\Facades\\Onpgschemas"
             }
         }
     },

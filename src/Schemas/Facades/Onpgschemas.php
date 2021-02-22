@@ -1,6 +1,6 @@
 <?php
 
-namespace ONPGSchemas\Facades;
+namespace Onpgschemas\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Facade;
  *
  * @package ONPGSchemas
  */
-class ONPGSchemas extends Facade
+class Onpgschemas extends Facade
 {
     /**
      * @return string
