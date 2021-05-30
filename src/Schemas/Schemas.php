@@ -10,7 +10,7 @@ use Config;
 /**
  * Class Schemas
  *
- * @package ONPGSchemas
+ * @package Onpgschemas
  */
 class Schemas
 {

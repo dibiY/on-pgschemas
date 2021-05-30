@@ -5,9 +5,9 @@ namespace Onpgschemas\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * Class PGSchema
+ * Class Onpgschemas
  *
- * @package ONPGSchemas
+ * @package Onpgschemas
  */
 class Onpgschemas extends Facade
 {
@@ -16,6 +16,6 @@ class Onpgschemas extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'pgschema';
+        return 'Schemas';
     }
 }

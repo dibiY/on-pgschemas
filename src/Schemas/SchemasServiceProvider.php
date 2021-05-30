@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Class SchemasServiceProvider
  *
- * @package ONPGSchemas
+ * @package Onpgschemas
  */
 class SchemasServiceProvider extends ServiceProvider
 {
@@ -25,7 +25,7 @@ class SchemasServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('pgschema', function () {
+        $this->app->bind('Schemas', function () {
             return new Schemas;
         });
     }

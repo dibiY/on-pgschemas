@@ -23,22 +23,22 @@ are setted in the usual way, you can use the next functions:
 
 ### Create new Schema
 
-`PGSchema::create($schemaName)`
+`Onpgschemas::create($schemaName)`
 
 ### Switch to Schema
 
-`PGSchema::switchTo($schemaName)`
+`Onpgschemas::switchTo($schemaName)`
 
 if switchTo is call without arguments, it switches to the public
 schema (default)
 
 ### Drop Schema
 
-`PGSchema::drop($schemaName)`
+`Onpgschemas::drop($schemaName)`
 
 ### Migrate Schema
 
-`PGSchema::migrate($schemaName, args[])`
+`Onpgschemas::migrate($schemaName, args[])`
 
 For example create a migrations in a custom path:
 `php artisan migrate:make create_dogs_table --create=dogs --path=database/migrations/foo`
